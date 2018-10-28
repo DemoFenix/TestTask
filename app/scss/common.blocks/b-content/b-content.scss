@@ -1,0 +1,9 @@
+.b-content {
+  width: 100%;
+  height: auto;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

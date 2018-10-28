@@ -1,0 +1,43 @@
+@import "../../../../vars";
+
+
+
+.b-content__img {
+  &.b-content__img_size_s {
+    width: 50%;
+    margin-right: -4px;
+    margin-bottom: 20px;
+    padding-right: 3.125%;
+    &:nth-child(2n) {
+      padding-right: 0;
+      padding-left: 3.125%;
+    }
+    @media screen and (min-width: $screen-md) {
+      margin-bottom: 30px;
+      width: 33.33%;
+      padding-right: 1.95%;
+      &:nth-child(2n) {
+        padding-right: 1.95%;
+        padding-left: 0;
+      }
+      &:nth-child(3n) {
+        padding-right: 0;
+      }
+    }
+    @media screen and (min-width: $screen-lg) {
+      width: 25%;
+      margin-bottom: 20px;
+      padding-right: 2.41%;
+      &:nth-child(2n) {
+        padding-right: 2.41%;
+        padding-left: 0;
+      }
+      &:nth-child(3n) {
+        padding-right: 2.41%;
+      }
+      &:nth-child(4n) {
+        padding-right: 0;
+      }
+    }
+  }
+}

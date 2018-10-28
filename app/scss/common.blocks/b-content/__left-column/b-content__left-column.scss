@@ -1,0 +1,19 @@
+@import "../../../vars";
+
+
+
+.b-content__left-column {
+  margin: 0 3.125%;
+  width: 93.75%;
+  @media screen and (min-width: $screen-md) {
+    margin: 0 1.95% 0 1.7%;
+    width: 68.36%;
+    float: right;
+  }
+  @media screen and (min-width: $screen-lg) {
+    margin: 0 2.35% 0 0;
+    width: 51.6%;
+    display: inline-block;
+    float: none;
+  }
+}

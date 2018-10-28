@@ -1,0 +1,23 @@
+@import "vars";
+@import "../scss/common.blocks/b-head/b-head.scss";
+@import "../scss/common.blocks/b-content/b-content.scss";
+@import "../scss/common.blocks/b-content/__left-column/b-content__left-column.scss";
+@import "../scss/common.blocks/b-content/__center-column/b-content__center-column.scss";
+@import "../scss/common.blocks/b-content/__right-column/b-content__right-column.scss";
+@import "../scss/common.blocks/b-content/__img/b-content__img.scss";
+@import "../scss/common.blocks/b-content/__img/_size_s/b-content__img_size_s.scss";
+
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+	&:before, &:after {
+		box-sizing: inherit;
+	}
+}
+
